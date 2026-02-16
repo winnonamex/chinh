@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nguyễn Thị Chinh</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Poppins',sans-serif;
+}
+
+body{
+  min-height:100vh;
+  background:linear-gradient(-45deg,#ff9a9e,#fad0c4,#fbc2eb,#a18cd1);
+  background-size:400% 400%;
+  animation:gradient 12s ease infinite;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  padding:40px 0;
+}
+
+@keyframes gradient{
+  0%{background-position:0% 50%;}
+  50%{background-position:100% 50%;}
+  100%{background-position:0% 50%;}
+}
+
+.card{
+  width:370px;
+  max-width:90%;
+  background:rgba(255,255,255,0.15);
+  border-radius:30px;
+  backdrop-filter:blur(20px);
+  box-shadow:0 15px 40px rgba(0,0,0,0.3);
+  color:white;
+  text-align:center;
+  padding:35px 25px;
+  animation:fadeIn 1.2s ease;
+}
+
+@keyframes fadeIn{
+  from{opacity:0; transform:translateY(20px);}
+  to{opacity:1; transform:translateY(0);}
+}
+
+.avatar{
+  width:150px;
+  height:150px;
+  border-radius:50%;
+  object-fit:cover;
+  border:5px solid white;
+  margin-bottom:15px;
+  box-shadow:0 0 35px rgba(255,255,255,0.9);
+  transition:0.4s;
+}
+
+.avatar:hover{
+  transform:scale(1.08);
+  box-shadow:0 0 60px #ff9a9e;
+}
+
+h2{
+  margin-bottom:20px;
+  font-weight:600;
+}
+
+.btn{
+  display:block;
+  margin:14px 0;
+  padding:14px;
+  border-radius:40px;
+  text-decoration:none;
+  font-weight:500;
+  color:white;
+  transition:0.3s;
+}
+
+.btn:hover{
+  transform:scale(1.07);
+  box-shadow:0 0 20px rgba(255,255,255,0.9);
+}
+
+.facebook{background:#1877f2;}
+.zalo{background:#0068ff;}
+.phone{background:#25D366;}
+.youtube{background:#ff0000;}
+.tiktok{background:#000;}
+
+footer{
+  margin-top:25px;
+  font-size:13px;
+  opacity:0.8;
+}
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+<img src="https://sf-static.upanhlaylink.com/img/image_20260216f91a029472eab199923988f3d873f97d.jpg" 
+     class="avatar" 
+     alt="Avatar Nguyễn Thị Chinh">
+
+<h2>Nguyễn Thị Chinh 💖</h2>
+
+<a href="https://www.facebook.com/share/1AjgQrHpYY/" target="_blank" class="btn facebook">🌐 Facebook</a>
+<a href="https://zalo.me/0866638108" target="_blank" class="btn zalo">💬 Zalo</a>
+<a href="tel:0866638108" class="btn phone">📞 0866638108</a>
+<a href="https://youtube.com/@ChinhNguyennhapbai" target="_blank" class="btn youtube">▶ YouTube</a>
+<a href="https://www.tiktok.com/@hoahiencnctoools" target="_blank" class="btn tiktok">🎵 TikTok</a>
+
+<footer>© 2026 Nguyễn Thị Chinh</footer>
+
+</div>
+
+</body>
+</html>

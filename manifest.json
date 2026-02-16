@@ -1,0 +1,15 @@
+{
+  "name": "Nguyễn Thị Chinh",
+  "short_name": "Chinh",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#ff9a9e",
+  "theme_color": "#ff9a9e",
+  "icons": [
+    {
+      "src": "https://i.imgur.com/youravatar.jpg",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
